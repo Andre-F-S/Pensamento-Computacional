@@ -1,0 +1,29 @@
+1.
+Inputs
+  pinMode(4, INPUT);
+  pinMode(3, INPUT);
+  pinMode(2, INPUT);
+  pinMode(A0, INPUT);
+
+Outputs:
+  pinMode(11, OUTPUT);
+  pinMode(9, OUTPUT);
+  pinMode(10, OUTPUT);
+
+2.
+  1 arduino Uno R3 - O componente que executa os comandos programados.
+  1 placa de ensaio pequena - Possibilita a utilização multipla de componentes atraves de entradas de fios conectadas.
+  1 led RGB - Led no qual utiliza a base RGB para iluminação colorida.
+  1 fotorresistor - Resistor variavel que reage a luz.
+  7 resistores - Limitador de fluxo de corrente eletrica.
+  3 botões - Enviará uma corrente eléltrica enquanto pressionado, mas corta a corrente ao soltar.
+
+3.
+  Apertar o botão da esquerda ativará o modo automático.
+  Apertar o botão do meio ativará o modo manual de emergência.
+  Apertar o botão da direita desativará o sistema.
+
+obs: Ao ativar um dos modos, os 2 modos restantes irão desativar.
+
+4.
+  Usaria "if" para checkar caso um dos botões tenham sido pressionados, enfim alternaria para o modo no qual o botão pressionado se refere.
